@@ -12,7 +12,6 @@ const routes = {
 }
 
 const router = async (e) => {  
-  console.log('event', e)
   const header = null || document.getElementById('header');
   const content = null || document.getElementById('content');
 
